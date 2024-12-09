@@ -51,8 +51,8 @@
     margin-top: 40px;
 }
 
-.hero-section>h1,
-p {
+.hero-h1,
+.hero-text {
     background-color: transparent;
     color: #ffffff;
     width: 40%;
@@ -83,4 +83,21 @@ p {
     padding: 8px 20px;
     border: none;
     border-radius: 6px;
+}
+
+
+/* Main section */
+.main-section {
+    padding: 50px 0;
+}
+
+/* About section */
+.about-h2 {
+    text-align: center;
+    color: #414040;
+}
+
+.about-text {
+    text-align: center;
+    color: #707070;
 }
