@@ -52,10 +52,12 @@
 }
 
 .hero-section>h1,
-p,
-a {
+p {
     background-color: transparent;
     color: #ffffff;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
 }
 
 .input-group {
@@ -63,4 +65,22 @@ a {
     column-gap: 10px;
     align-items: center;
     margin-bottom: 20px;
+    background-color: transparent;
+    width: 40%;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.input-btn {
+    background-color: #B68C5A;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
 }
