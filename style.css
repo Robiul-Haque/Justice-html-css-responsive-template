@@ -1,6 +1,6 @@
-* {
+/* * {
     background-color: #ffffff;
-}
+} */
 
 
 /* Navbar */
@@ -87,7 +87,7 @@
 
 
 /* Main section */
-.main-section {
+.main {
     padding: 50px 0;
     width: 82%;
     margin: 0 auto;
@@ -182,4 +182,57 @@
 
 .about-second-row>div>i>img {
     width: 25px;
+}
+
+/* faq */
+.faq-section {
+    padding: 60px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.faq-h2 {
+    text-align: center;
+    color: #414040;
+}
+
+.faq-text {
+    text-align: center;
+    color: #707070;
+}
+
+.faq-main {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+.faq-main>img {
+    width: 380px;
+}
+
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #F3F3F3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sec-1>span>h3 {
+    color: #414040;
+}
+
+.sec-1>span>p {
+    color: #707070;
+}
+
+.sec-2>h3, .sec-3>h3, .sec-4>h3 {
+    color: #414040;
 }
