@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justice</title>
+    <!-- Google font cdn link Poppins: 200, 300, 400, 500, 600 EB Garamond: 600, 700, 800 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,15 +18,25 @@
     <header id="header">
         <nav id="nav">
             <img src="./image/Nav-logo.png" alt="Nav-logo-justice">
-            <ul id="nav-list">
+            <ul id="nav-list" class="poppins-light">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Cases</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
-            <button type="button">Free Consultation</button>
+            <button type="button" class="nav-btn poppins-light">Free Consultation</button>
         </nav>
+        <section class="hero-section">
+            <h1 class="hero-h1 eb-garamond">We Provide Effective Legal Solutions</h1>
+            <p class="hero-text poppins-regular">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered alteration
+                in some form, by injected humour.</p>
+            <div>
+                <input type="text" placeholder="Search your services">
+                <input type="submit" value="Search">
+            </div>
+        </section>
     </header>
 </body>
 
