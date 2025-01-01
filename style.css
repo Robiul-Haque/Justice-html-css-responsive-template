@@ -89,7 +89,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 72vh;
+    height: 62vh;
     width: 77%;
     margin: 20px auto;
     border-radius: 8px;
@@ -107,4 +107,62 @@
 .hero-text {
     font-size: 12px;
     margin: 20px 0;
+}
+
+.hero-input-group>input[type="text"] {
+    padding: 14px 20px;
+    border-radius: 6px;
+    width: 60%;
+    margin: 20px 6px;
+    outline: none;
+}
+
+.hero-input-group>input[type="submit"] {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #b68c5a;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* The Legal Practice Area */
+.legal-practice-header {
+    text-align: center;
+    width: 35%;
+    margin: 60px auto;
+}
+
+.lega_ractice_h2 {
+    font-size: 30px;
+    color: #414040;
+}
+
+.lega_ractice_txt {
+    font-size: 14px;
+    margin: 20px 0;
+    color: #707070;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px 0;
+    justify-items: center;
+    width: 77%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid-container>div {
+    padding: 20px 40px;
+}
+
+.grid-item-h3 {
+    margin: 25px 0;
+}
+
+.grid-item-txt {
+    margin-bottom: 25px;
 }
