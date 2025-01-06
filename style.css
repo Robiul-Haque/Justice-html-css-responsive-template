@@ -204,18 +204,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 77%;
+    column-gap: 20px;
     margin: 0 auto;
+    padding-left: 100px;
 }
 
 .contact-us-info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #F3F3F3;
+    width: 50%;
 }
 
 .contact-us-info-item {
     text-align: center;
+}
+
+.contact-us-info-item > h3 {
+    padding: 12px 0;
+    color: #414040;
+}
+
+.contact-us-info-item > img {
+width: 30px;
+}
+
+.contact-us-info-item > p {
+    padding: 3px 0;
+    color: #707070;
+    font-size: 12px;
+}
+
+.contact-us-item-1 {
+    border-bottom: 1px solid #CFCFCF;
+    border-right: 1px solid #CFCFCF;
+    padding: 39px 50px;
+}
+
+.contact-us-item-2 {
+    border-bottom: 1px solid #CFCFCF;
+    padding: 39px 50px;
+}
+
+.contact-us-item-3 {
+    border-right: 1px solid #CFCFCF;
+    padding: 39px 50px;
+}
+
+.contact-us-item-4 {
+    padding: 39px 50px;
 }
 
 .contact-us-form {
@@ -224,6 +261,8 @@
     justify-content: center;
     align-items: center;
     row-gap: 20px;
+    width: 50%;
+    padding-right: 100px;
 }
 
 .contact-us-form>input {
